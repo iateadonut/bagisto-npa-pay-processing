@@ -9,8 +9,11 @@ See details about the NPA API here: https://npa.transactiongateway.com/merchants
 Save this to packages/Iateadonut/NPAPayProcessing
 
 add to your .env:
+
 NPA_PUBKEY=
+
 NPA_PRIVATE_KEY=
 
 add to config/app.php in your 'providers' array:
+
 Iateadonut\NPAPayProcessing\Providers\NPAServiceProvider::class,
